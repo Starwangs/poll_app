@@ -1,0 +1,22 @@
+{
+  "name": "poll-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.0",
+    "@sveltejs/kit": "next",
+    "firebase": "^8.4.2",
+    "rxfire": "^4.0.0",
+    "rxjs": "^6.6.7",
+    "svelte": "^3.29.0",
+    "vite": "^2.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
